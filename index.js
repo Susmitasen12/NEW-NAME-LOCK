@@ -5,7 +5,7 @@ const express = require("express");
 const appState = JSON.parse(fs.readFileSync("appstate.json", "utf-8"));
 
 const GROUP_THREAD_ID = "9909298062530889";
-const LOCKED_GROUP_NAME = "NAME CHANGER TESTING:)";
+const LOCKED_GROUP_NAME = "NAME CHANGER TESTING 3:)";
 
 const checkGroupNameLoop = (api) => {
   const check = async () => {
